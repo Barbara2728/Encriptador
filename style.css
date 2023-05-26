@@ -64,8 +64,8 @@ body {
   }
   
   textarea {
-    margin: 0px 0px 20px 150px;
-    width: 40%;
+    margin: 0px 0px 20px 50px;
+    width: 55%;
     resize: vertical;
     background: none;
     border: transparent;
@@ -141,3 +141,25 @@ body {
   }
 
   
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+    .encriptador {
+      position: relative;
+      left: auto;
+      top: auto;
+      transform: none;
+    }
+  }
+  
+  /* Estilos para celular */
+  @media screen and (max-width: 480px) {
+    .encriptador {
+      position: relative;
+      left: auto;
+      top: auto;
+      transform: none;
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  }
