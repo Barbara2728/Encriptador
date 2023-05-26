@@ -117,7 +117,7 @@ body {
   
   .botones {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin-top: 20px;
   }
   
@@ -134,4 +134,10 @@ body {
   button#copiarTexto {
     margin-top: 10px;
   }
+  
+  footer{
+    padding: 20px;
+    background-color: #0A3871;
+  }
+
   
