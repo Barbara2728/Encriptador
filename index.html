@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head >
-    <meta charset="UFT-8">
-    <title>Enrciptador BG</title>
-    <meta name="viewport" content="width=device-width"> 
-    <link rel="stylesheet" href="style.css">
-
+<head>
+  <meta charset="UTF-8">
+  <title>Encriptador BG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
-    <header>
-        <div class="caja">
-            <h1><img id="logoA" src="images/Logo.png"></h1>
-            <h1 class="encabezado">Encriptador</h1>
-            <h1 class="creador">Creado por: Barbara Garcia</h1>
-        </div>
-    </header>
+  <header>
+    <div class="caja">
+      <h1><img id="logoA" src="images/Logo.png"></h1>
+      <h1 class="encabezado">Encriptador</h1>
+      <h1 class="creador">Creado por: Barbara Garcia</h1>
+    </div>
+  </header>
 
-    <main>
-        <div class="textoEntrada">
-            <textarea cols="70" rows="10" id="texto" class="entrada" required placeholder="Ingrese el texto aqui"></textarea>
+  <main>
+    <div class="textoEntrada">
+      <textarea cols="70" rows="10" id="texto" class="entrada" required placeholder="Ingrese el texto aquí"></textarea>
+    </div>
 
-        </div>
-    </main>
-   
-    <footer>
+    <div class="encriptador">
+      <div class="mensaje">
+        <p id="resultado" class="placeholder" contenteditable="true">Escribe aquí tu resultado...</p>
 
-    </footer>
+        <p id="imgBuscar"><img src="images/Muñeco.png"></p>
+        <p id="mensajePrincipal">Ingresa el texto que desees encriptar o desencriptar.</p>
+        <p id="mensajeSecundario">Ningún mensaje fue encontrado.</p>
+    </div>
+      
+      <div class="botones">
+        <button id="encriptarBtn">Encriptar</button>
+        <button id="desencriptarBtn">Desencriptar</button>
+        <button id="copiarTexto">Copiar</button>
+      </div>
+    </div>
+  </main>
 
+  <footer>
+
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
